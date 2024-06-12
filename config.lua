@@ -1,5 +1,3 @@
-
-
 -- Define messages with associated parameters
 Config = {}
 
@@ -11,7 +9,7 @@ Config = {}
 
 Config.messages = {
     { -- Message 1
-        text = "Stoicly Developed",
+        text = "Press [F1] for help",
         style = {
             backgroundColor = "#141517",
             color = "#C1C2C5",
@@ -19,12 +17,12 @@ Config.messages = {
                 color = "#909296"
             }
         },
-        icon = "fa-solid fa-tree",
+        icon = "fa-solid fa-circle-info",
         iconColor = "#1c4f18",
         iconAnimation = "beat"
     },
     { -- Message 2
-        text = "Join our Discord! https://discord.gg/INVITE_LINK",
+        text = "Join our Discord! https://discord.gg/Yt9HdGWdSY",
         style = {
             backgroundColor = "#141517",
             color = "#C1C2C5",
@@ -32,12 +30,12 @@ Config.messages = {
                 color = "#909296"
             }
         },
-        icon = "fa-brands fa-discord",
+        icon = "fa-solid fa-circle-info",
         iconColor = "#5865F2",
         iconAnimation = "bounce"
     },
     { -- Message 3
-        text = "Departments Open Apply Today!",
+        text = "Click any newspaper box to read the latest!",
         style = {
             backgroundColor = "#141517",
             color = "#C1C2C5",
@@ -45,7 +43,7 @@ Config.messages = {
                 color = "#909296"
             }
         },
-        icon = "fa-brands fa-linkedin",
+        icon = "fa-regular fa-newspaper",
         iconColor = "#67bef5",
         iconAnimation = "fade"
     },
@@ -54,11 +52,11 @@ Config.messages = {
 
 -- Define notification parameters
 Config.notification = {
-    title = "Stoic-Announcer",
-    duration = 10000, -- Change duration as needed (in milliseconds) | https://www.calculateme.com/time/milliseconds/to-seconds/10000
-    position = "top", -- Change position if desired
+    title = "Announcement",
+    duration = 19000, -- Change duration as needed (in milliseconds) | https://www.calculateme.com/time/milliseconds/to-seconds/10000
+    position = "top-left", -- Change position if desired
     type = "inform", -- Change notification type if desired
 }
 
 -- Define announcement interval in seconds
-Config.announcementIntervalSeconds = 320 -- 600 seconds = 10 minutes (default)
+Config.announcementIntervalSeconds = 120 -- 600 seconds = 10 minutes (default)
